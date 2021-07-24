@@ -1,0 +1,221 @@
+@charset "utf-8";
+*{
+    margin: 0;
+    padding: 0;
+    letter-spacing: .05em;
+}
+html{
+    height: 100%;
+}
+body{
+    height: 100%;
+    background-color: #f6f7f8;
+}
+#container{
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#fgh{
+    width: 100%;
+    height: 10px;
+    /* background-color: #F00; */
+}
+#hfgh{
+    width: 60%;
+    height: 0.5px;
+    background-color: #FFF;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#container #header{
+    width: 100%;
+    height: 60px;
+    background-color: #27282d;
+}
+#container #header #hbar{
+    width: 1200px;
+    height: 60px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#container #header #hbar #logo{
+    width: 130px;
+    height: 60px;
+    color: #FFF;
+    margin-right: 10px;
+    float: left;
+}
+#container #header #hbar #horizontalbar{
+    width: 680px;
+    height: 60px;
+    margin-right: 10px;
+    float: left;
+}
+#container #header #hbar #horizontalbar ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+#container #header #hbar #horizontalbar ul li{
+    float: left;
+}
+#container #header #hbar #horizontalbar ul li a{
+    font-family: "宋体";
+	font-size: 18px;
+	font-weight: bold;
+	color: #FFF;
+	text-decoration: none;
+	line-height: 60px;
+	height: 60px;
+}
+#container #header #hbar #horizontalbar ul li a:hover{
+    font-family: "宋体";
+    font-size: 18px;
+    font-weight: bold;
+    color: #F00;
+    line-height: 60px;
+    height: 60px;
+    display: block;
+}
+#container #header #hbar #search{
+    width: 258px;
+    height: 60px;
+    line-height: 60px;
+    color: #FFF;
+    margin-right: 10px;
+    float: left;
+}
+#container #header #hbar #search .searchinput{
+    width: 200px;
+    height: 30px;
+    line-height: 30px;
+    margin-top: 13px;
+    float: left;
+}
+#container #header #hbar #link{
+    width: 88px;
+    height: 60px;
+    float: left;
+}
+#container #header #hbar #link a{
+    width: 88px;
+    height: 60px;
+    color: #FFF;
+    line-height: 60px;
+    text-decoration: none;
+}
+#container #header #hbar #link a:hover{
+    width: 88px;
+    height: 60px;
+    color: #F00;
+    line-height: 60px;
+    text-decoration: underline;
+}
+#container #main{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    overflow: auto;
+    background-color: #FFF;
+    border-radius: 5px;
+}
+#container #main .title{
+    width: 1000px;
+    height: 60px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+#container #main .title h1{
+    height: 60px;
+    line-height: 60px;
+    position:absolute;
+    margin-left: 350px;
+    display: block;
+}
+#container #main .info{
+    width: 1000px;
+    height: 22px;
+    margin-top: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+#container #main .info .author{
+    width: 100px;
+    height: 22px;
+    color: #939393;
+    display: block;
+    float: left;
+    margin-left: 300px;
+    margin-right: 30px;
+    padding-left: 25px;
+    background-image: url(../images/作者.png);
+    background-repeat: no-repeat;
+    text-decoration: none;
+}
+#container #main .info .date{
+    width: 100px;
+    height: 22px;
+    color: #939393;
+    line-height: 22px;
+    display: block;
+    float: left;
+    margin-right: 30px;
+    padding-left: 25px;
+    background-image: url(../images/_日历.png);
+    background-repeat: no-repeat;
+    text-decoration: none;
+}
+#container #main .info .zan{
+    width: 75px;
+    height: 22px;
+    color: #939393;
+    line-height: 22px;
+    display: block;
+    float: left;
+    padding-left: 25px;
+    background-image: url(../images/赞.png);
+    background-repeat: no-repeat;
+    text-decoration: none;
+}
+#container #main .allbox{
+    width: 1000px;
+    margin-top: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-top: 10px;
+    overflow: auto;
+}
+#container #main .allbox .wen{
+    width: 800px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+#container #main .allbox .wen p{
+    color: #000;
+    font-size: 20px;
+    display: block;
+    margin-top: 10px;
+}
+#container #main .allbox .images{
+    width: 600px;
+    height: 300px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+    background-color: aquamarine;
+}
+#container #main .allbox .images img{
+    width: 600px;
+    height: 300px;
+    border-radius: 5px;
+}

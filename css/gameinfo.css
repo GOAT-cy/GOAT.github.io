@@ -1,0 +1,570 @@
+@charset "utf-8";
+*{
+    margin: 0;
+    padding: 0;
+    letter-spacing: .05em;
+}
+html{
+    height: 100%;
+	background-color: #E9E9E9;
+}
+body{
+    height: 100%;
+}
+#container{
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#fgh{
+    width: 100%;
+    height: 10px;
+	background-color: #E9E9E9;
+}
+#fgx{
+    width: 100%;
+    height: 5px;
+	background-color: #E9E9E9;
+}
+#hfgh{
+    width: 60%;
+    height: 0.5px;
+    background-color: #FFF;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#container #header{
+    width: 100%;
+    height: 60px;
+    background-color: #27282d;
+}
+#container #header #hbar{
+    width: 1200px;
+    height: 60px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#container #header #hbar #logo{
+    width: 130px;
+    height: 60px;
+    color: #FFF;
+    margin-right: 10px;
+    float: left;
+}
+#container #header #hbar #horizontalbar{
+    width: 680px;
+    height: 60px;
+    margin-right: 10px;
+    float: left;
+}
+#container #header #hbar #horizontalbar ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+#container #header #hbar #horizontalbar ul li{
+    float: left;
+}
+#container #header #hbar #horizontalbar ul li a{
+    font-family: "宋体";
+	font-size: 18px;
+	font-weight: bold;
+	color: #FFF;
+	text-decoration: none;
+	line-height: 60px;
+	height: 60px;
+}
+#container #header #hbar #horizontalbar ul li a:hover{
+    font-family: "宋体";
+    font-size: 18px;
+    font-weight: bold;
+    color: #F00;
+    line-height: 60px;
+    height: 60px;
+    display: block;
+}
+#container #header #hbar #search{
+    width: 258px;
+    height: 60px;
+    line-height: 60px;
+    color: #FFF;
+    margin-right: 10px;
+    float: left;
+}
+#container #header #hbar #search .searchinput{
+    width: 200px;
+    height: 30px;
+    line-height: 30px;
+    margin-top: 13px;
+    float: left;
+}
+#container #header #hbar #link{
+    width: 88px;
+    height: 60px;
+    float: left;
+}
+#container #header #hbar #link a{
+    width: 88px;
+    height: 60px;
+    color: #FFF;
+    line-height: 60px;
+    text-decoration: none;
+}
+#container #header #hbar #link a:hover{
+    width: 88px;
+    height: 60px;
+    color: #F00;
+    line-height: 60px;
+    text-decoration: underline;
+}
+#container #big-box {
+	height: 900px;
+	width: 1200px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+#container #big-box #left-box {
+	height: 900px;
+	width: 790px;
+	float: left;
+	background-color: #F2F2F2;
+}
+#container #big-box #left-box .title-nvrbar {
+	height: 50px;
+	width: 790px;
+	background-color: #D2D2D2;
+}
+#container #big-box #left-box .title-nvrbar ul {
+	list-style-type: none;
+}
+#container #big-box #left-box .title-nvrbar ul li {
+	height: 40px;
+	width: 108px;
+	line-height: 50px;
+	float: left;
+	padding-left: 25px;
+	background-color: #C2C2C2;
+	border-top-style: double;
+	border-right-style: double;
+	border-bottom-style: double;
+	border-left-style: double;
+	border-top-color: #D2D2D2;
+	border-right-color: #D2D2D2;
+	border-bottom-color: #D2D2D2;
+	border-left-color: #D2D2D2;
+	margin-left: 15px;
+}
+#container #big-box #left-box .title-nvrbar ul li a {
+	font-family: "宋体";
+	font-size: 16px;
+	text-decoration: none;
+	color: #333;
+}
+#container #big-box #left-box .title-nvrbar ul li a:hover {
+	font-family: "宋体";
+	font-size: 16px;
+	text-decoration: none;
+	color: #D5D5D5;
+}
+#container #big-box #left-box .frame {
+	height: 840px;
+	width: 790px;
+}
+
+
+
+/*关于游戏*/
+#container #big-box #left-box .frame .show {
+	background-color: #DADADA;
+	height: 820px;
+	width: 760px;
+	padding-right: 10px;
+	padding-left: 10px;
+	margin-top: 10px;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	margin-left: 5px;
+	padding-top: 5px;
+	overflow: auto;
+}
+#container #big-box #left-box .frame .show ul {
+	list-style-type: square;
+	width: 760px;
+}
+#container #big-box #left-box .frame .show ul li {
+	list-style-type: square;
+	margin-top: 10px;
+	margin-left: 20px;
+}
+#container #big-box #left-box .frame .show .system {
+	width: 760px;
+	margin-top: 10px;
+}
+#container #big-box #left-box .frame .show .system .configure {
+	float: left;
+	height: 300px;
+	width: 360px;
+	margin-left: 10px;
+}
+#container #big-box #left-box .frame .show .system .configure ul {
+	width: 360px;
+}
+#container #big-box #left-box .frame .show .system ul li {
+	list-style-type: none;
+	margin-top: 10px;
+}
+
+
+
+/*游戏资讯*/
+#container #big-box #left-box .frame .information{
+	background-color: #DADADA;
+	height: 820px;
+	width: 760px;
+	padding-right: 10px;
+	padding-left: 10px;
+	margin-top: 10px;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	margin-left: 5px;
+	padding-top: 5px;
+	overflow: auto;
+}
+#container #big-box #left-box .frame .information .news{
+	width: 750px;
+	height: 180px;
+	margin-top: 5px;
+	margin-bottom: 2px;
+	background-color: #E6E6E6;
+}
+#container #big-box #left-box .frame .information .news:hover{
+    box-shadow: 1px 1px 1px #939393;
+}
+#container #big-box #left-box .frame .information .news .test{
+    width: 180px;
+    height: 150px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    float: left;
+}
+#container #big-box #left-box .frame .information .news img{
+    width: 180px;
+    height: 150px;
+    transition: all 0.6s;/*图片放大过程的时间*/
+}
+#container #big-box #left-box .frame .information .news img:hover{
+    transform: scale(1.06);/*鼠标经过图片放大的倍数*/
+}
+#container #big-box #left-box .frame .information .news .writing{
+    width: 550px;
+    height: 160px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    float: left;
+}
+#container #big-box #left-box .frame .information .news .writing .title{
+    width: 550px;
+    height: 30px;
+    margin-top: 5px;
+}
+#container #big-box #left-box .frame .information .news .writing .title a{
+    color: #000;
+    font-size: 18px;
+    text-decoration: none;
+}
+#container #big-box #left-box .frame .information .news .writing .title a:hover{
+    color: #4ba6e5;
+}
+#container #big-box #left-box .frame .information .news .writing .description{
+    width: 550px;
+    height: 75px;
+    margin-top: 5px;
+    padding-top: 10px;
+}
+#container #big-box #left-box .frame .information .news .writing .description a{
+    color: #939393;
+    font-size: 13px;
+    text-decoration: none;
+}
+#container #big-box #left-box .frame .information .news .writing .description a:hover{
+    color: #4ba6e5;
+}
+#container #big-box #left-box .frame .information .news .writing .from{
+    width: 550px;
+    height: 20px;
+    color: #939393;
+    font-size: 13px;
+    margin-top: 5px;
+}
+#container #big-box #left-box .frame .information .news .writing .from a{
+    color: #4285f4;
+    text-decoration-line: none;
+}
+
+
+
+
+
+
+/*游戏封面和游戏简介*/
+#container #big-box #right-box {
+	height: 900px;
+	width: 400px;
+	float: left;
+	margin-left: 10px;
+}
+#container #big-box #right-box #content-box {
+	height: 900px;
+	width: 400px;
+	
+}
+
+
+/*游戏封面*/
+#container #big-box #right-box #content-box #cover-box {
+	height: 533px;
+	width: 370px;
+	margin-right: 15px;
+	margin-left: 15px;
+	padding-top: 10px;
+}
+
+/*游戏简介*/
+#container #big-box #right-box #content-box .detail-box {
+	width: 400px;
+	height: 347px;
+	background-color: #D5D5D5;
+}
+#container #big-box #right-box #content-box .detail-box .title {
+	font-family: "宋体";
+	font-size: 24px;
+	line-height: 30px;
+	font-weight: bolder;
+	color: #000;
+	text-decoration: none;
+	height: 30px;
+	width: 380px;
+	padding-left: 20px;
+}
+#container #big-box #right-box #content-box .detail-box .title a {
+	margin-left: 20px;
+	color: #9C9C9C;
+	font-family: "黑体";
+	font-size: 14px;
+	line-height: 24px;
+	text-decoration: none;
+	height: 24px;
+	width: 30px;
+	background-color: #DBDBDD;
+}
+#container #big-box #right-box #content-box .detail-box .title a:hover {
+	margin-left: 20px;
+	color: #E0E0E0;
+	background-color: #DBDBDD;
+}
+
+#container #big-box #right-box #content-box .detail-box .frame {
+	height: 310px;
+	width: 400px;
+	margin-top: 10px;
+}
+#container #big-box #right-box #content-box .detail-box .frame .navbar {
+	height: 20px;
+	width: 400px;
+	float: left;
+	background-color: #DBDBDB;
+}
+#container #big-box #right-box #content-box .detail-box .frame .navbar ul {
+	list-style-type: none;
+}
+
+#container #big-box #right-box #content-box .detail-box .frame .navbar ul li {
+	font-family: "宋体";
+	font-size: 16px;
+	line-height: 20px;
+	color: #333;
+	text-decoration: none;
+	height: 20px;
+	float: left;
+	width: 70px;
+	margin-left: 10px;
+	padding-left: 10px;
+	background-color: #DBDFDF;
+}
+
+#container #big-box #right-box #content-box .detail-box .frame .detail {
+	height: 307px;
+	width: 400px;
+	background-color: #E7E7E7;
+}
+#container #big-box #right-box #content-box .detail-box .frame .detail .show {
+	height: 287px;
+	width: 390px;
+	overflow: auto;
+	padding: 5px;
+}
+
+
+
+
+
+
+
+#container #footer{
+    width: 100%;
+    height: 200px;
+    padding-top: 5px;
+    background-color: #27282d;
+}
+#container #footer #footerinfo {
+	height: 200px;
+	width: 1200px;
+	margin-right: auto;
+    margin-left: auto;
+}
+#container #footer #footerinfo .s-footer{
+    height: 200px;
+    width: 1200px;
+}
+#container #footer #footerinfo .s-footer .other{
+    width: 1200px;
+    height: 110px;
+}
+#container #footer #footerinfo .s-footer .other .links{
+    width: 400px;
+    height: 110px;
+    margin-right: 10px;
+    float: left;
+}
+#container #footer #footerinfo .s-footer .other .links .links-title{
+    width: 400px;
+    height: 20px;
+    color: #FFF;
+    font-family: "宋体";
+    font-size: 16px;
+    margin-top: 5px;
+    margin-bottom: 3px;
+    padding-top: 5px;
+}
+#container #footer #footerinfo .s-footer .other .links .links-main{
+    width: 400px;
+    height: 75px;
+}
+#container #footer #footerinfo .s-footer .other .links .links-main p{
+    margin-top: 10px;
+}
+#container #footer #footerinfo .s-footer .other .links .links-main p a{
+    color: #939393;
+    font-family: 楷体;
+    font-size: 14px;
+    margin-left: 10px;
+    margin-right: 40px;
+    text-decoration: none;
+}
+#container #footer #footerinfo .s-footer .other .links .links-main p a:hover{
+    color: #FFF;
+    font-family: 楷体;
+    font-size: 14px;
+    margin-left: 10px;
+    margin-right: 40px;
+    text-decoration: none;
+}
+#container #footer #footerinfo .s-footer .other .about{
+    width: 390px;
+    height: 110px;
+    margin-right: 10px;
+    float: left;
+}
+#container #footer #footerinfo .s-footer .other .about .about-title{
+    width: 390px;
+    height: 20px;
+    color: #FFF;
+    font-family: "宋体";
+    font-size: 16px;
+    margin-top: 5px;
+    margin-bottom: 3px;
+    padding-top: 5px;
+}
+#container #footer #footerinfo .s-footer .other .about .about-main{
+    width: 390px;
+    height: 70px;
+    padding-top: 2px;
+}
+#container #footer #footerinfo .s-footer .other .about .about-main p{
+    margin-top: 4px;
+    padding-bottom: 5px;
+}
+#container #footer #footerinfo .s-footer .other .about .about-main p a{
+    color: #939393;
+    font-family: 楷体;
+    font-size: 14px;
+    margin-left: 10px;
+    margin-right: 40px;
+    text-decoration: none;
+}
+#container #footer #footerinfo .s-footer .other .about .about-main p a:hover{
+    color: #FFF;
+    font-family: 楷体;
+    font-size: 14px;
+    margin-left: 10px;
+    margin-right: 40px;
+    text-decoration: none;
+}
+#container #footer #footerinfo .s-footer .other .contact{
+    width: 390px;
+    height: 110px;
+    float: right;
+}
+#container #footer #footerinfo .s-footer .other .contact .contact-title{
+    width: 390px;
+    height: 20px;
+    color: #FFF;
+    font-family: "宋体";
+    font-size: 16px;
+    margin-top: 5px;
+    margin-bottom: 3px;
+    padding-top: 5px;
+}
+#container #footer #footerinfo .s-footer .other .contact .contact-main{
+    width: 380px;
+    height: 65px;
+    padding-top: 10px;
+    padding-left: 5px;
+}
+#container #footer #footerinfo .s-footer .other .contact .contact-main a{
+    text-decoration: none;
+}
+#container #footer #footerinfo .s-footer .other .contact .contact-main img{
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    transition: all 0.6s;
+}
+#container #footer #footerinfo .s-footer .other .contact .contact-main img:hover{
+    transform: scale(1.2);
+}
+#container #footer #footerinfo .s-footer .copyright{
+    width: 750px;
+    height: 30px;
+    line-height: 30px;
+    color: #939393;
+    font-size: 13px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+}
+#container #footer #footerinfo .s-footer .beian{
+    height: 30px;
+    width: 380px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+}
