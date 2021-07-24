@@ -1,0 +1,232 @@
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style>
+#hfgh{
+    width: 60%;
+    height: 0.5px;
+    background-color: #FFF;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#footer{
+    width: 100%;
+    height: 200px;
+    padding-top: 5px;
+    background-color: #27282d;
+}
+#footer #footerinfo {
+	height: 200px;
+	width: 1200px;
+	margin-right: auto;
+    margin-left: auto;
+}
+#footer #footerinfo .s-footer{
+    height: 200px;
+    width: 1200px;
+}
+#footer #footerinfo .s-footer .other{
+    width: 1200px;
+    height: 110px;
+}
+#footer #footerinfo .s-footer .other .links{
+    width: 400px;
+    height: 110px;
+    margin-right: 10px;
+    float: left;
+}
+#footer #footerinfo .s-footer .other .links .links-title{
+    width: 400px;
+    height: 20px;
+    color: #FFF;
+    font-family: "宋体";
+    font-size: 16px;
+    margin-top: 5px;
+    margin-bottom: 3px;
+    padding-top: 5px;
+}
+#footer #footerinfo .s-footer .other .links .links-main{
+    width: 400px;
+    height: 75px;
+}
+#footer #footerinfo .s-footer .other .links .links-main p{
+    margin-top: 10px;
+}
+#footer #footerinfo .s-footer .other .links .links-main p a{
+    color: #939393;
+    font-family: 楷体;
+    font-size: 14px;
+    margin-left: 10px;
+    margin-right: 40px;
+    text-decoration: none;
+}
+#footer #footerinfo .s-footer .other .links .links-main p a:hover{
+    color: #FFF;
+    font-family: 楷体;
+    font-size: 14px;
+    margin-left: 10px;
+    margin-right: 40px;
+    text-decoration: none;
+}
+#footer #footerinfo .s-footer .other .about{
+    width: 390px;
+    height: 110px;
+    margin-right: 10px;
+    float: left;
+}
+#footer #footerinfo .s-footer .other .about .about-title{
+    width: 390px;
+    height: 20px;
+    color: #FFF;
+    font-family: "宋体";
+    font-size: 16px;
+    margin-top: 5px;
+    margin-bottom: 3px;
+    padding-top: 5px;
+}
+#footer #footerinfo .s-footer .other .about .about-main{
+    width: 390px;
+    height: 70px;
+    padding-top: 2px;
+}
+#footer #footerinfo .s-footer .other .about .about-main p{
+    margin-top: 4px;
+    padding-bottom: 5px;
+}
+#footer #footerinfo .s-footer .other .about .about-main p a{
+    color: #939393;
+    font-family: 楷体;
+    font-size: 14px;
+    margin-left: 10px;
+    margin-right: 40px;
+    text-decoration: none;
+}
+#footer #footerinfo .s-footer .other .about .about-main p a:hover{
+    color: #FFF;
+    font-family: 楷体;
+    font-size: 14px;
+    margin-left: 10px;
+    margin-right: 40px;
+    text-decoration: none;
+}
+#footer #footerinfo .s-footer .other .contact{
+    width: 390px;
+    height: 110px;
+    float: right;
+}
+#footer #footerinfo .s-footer .other .contact .contact-title{
+    width: 390px;
+    height: 20px;
+    color: #FFF;
+    font-family: "宋体";
+    font-size: 16px;
+    margin-top: 5px;
+    margin-bottom: 3px;
+    padding-top: 5px;
+}
+#footer #footerinfo .s-footer .other .contact .contact-main{
+    width: 380px;
+    height: 65px;
+    padding-top: 10px;
+    padding-left: 5px;
+}
+#footer #footerinfo .s-footer .other .contact .contact-main a{
+    text-decoration: none;
+}
+#container #footer #footerinfo .s-footer .other .contact .contact-main img{
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    transition: all 0.6s;
+}
+#footer #footerinfo .s-footer .other .contact .contact-main img:hover{
+    transform: scale(1.2);
+}
+#footer #footerinfo .s-footer .copyright{
+    width: 750px;
+    height: 30px;
+    line-height: 30px;
+    color: #939393;
+    font-size: 13px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+}
+#footer #footerinfo .s-footer .beian{
+    height: 30px;
+    width: 380px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+}
+</style>
+		<div id="footer">
+        	<div id="footerinfo">
+                <footer class="s-footer">
+                    <div class="other">
+                        <div class="links">
+                            <div class="links-title">友情链接</div>
+                            <div class="links-main">
+                                <p>
+                                    <a href="#">盒子部落</a>
+                                    <a href="#">果壳剥壳</a>
+                                </p>
+                                <p>
+                                    <a href="#">菜鸟教程</a>
+                                    <a href="#">落尘之木</a>
+                                </p>
+                                <p>
+                                    <a href="#">GitHub</a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="about">
+                            <div class="about-title">关于我们</div>
+                            <div class="about-main">
+                                <p>
+                                    <a href="#">关于本站</a>
+                                    <a href="#">服务条款</a>
+                                </p>
+                                <p>
+                                    <a href="#">广告投放</a>
+                                    <a href="#">举报投诉</a>
+                                </p>
+                            </div>
+                        </div>
+                        <dic class="contact">
+                            <div class="contact-title">
+                                联系我们
+                            </div>
+                            <div class="contact-main">
+                                <a href="#">
+                                    <img src="../images/qq.png">
+                                </a>
+                                <a href="#">
+                                    <img src="../images/微博.png">
+                                </a>
+                                <a href="#">
+                                    <img src="../images/微信.png">
+                                </a>
+                                <a href="#">
+                                    <img src="../images/邮箱.png">
+                                </a>
+                            </div>
+                        </dic>
+                    </div>
+                    <div id="hfgh"></div>
+                    <div class="copyright">
+                        <span>Copyright © 版权所有</span>
+                        <span>站点资源来自网络,如有侵权,请邮件联系,我们将尽快处理；侵删联系邮箱：2097281854@qq.com</span>
+                    </div>
+                    <div class="beian">
+                        <span>
+                            <a href="#" style="display:inline-block;text-decoration:none;height:20px;line-height:20px; font-size: 13px; color: #939393; background-image: url(images/备案图标.png); background-repeat: no-repeat; padding-left: 22px;">滇公网安备 53250402000149号 |</a>
+                        </span>
+                        <span>
+                            <a href="#" style="display:inline-block;text-decoration:none;height:20px;line-height:20px; font-size: 13px; color: #939393;">滇ICP备20002291号</a>
+                        </span>
+                    </div>
+                </footer>
+            </div>
+        </div>
